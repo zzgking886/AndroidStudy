@@ -26,5 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v)
     {
         Log.v("ssss","ssss");
+        //onClick点击事件首先要MainActivity要遵循OnClickListener监听，然后通过activity获取到相应的按钮通过一种类似getElementById的方式
+        //这里用的是findVIewById 获取到相应的按钮，然后添加点击事件监听，在this activity里面。
     }
 }

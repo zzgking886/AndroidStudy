@@ -24,6 +24,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--
+     在项目中可以对应view中的相对位置来进行UI的布局
+     如下所示：layout_constraintLeft_toLeftOf  意味着追寻着loginbutton的左对齐。
+     layout_constraintTop_toBottomOf  意味着追寻着loginbutton的上间距，而layout_marginTop意味着这个间距是多少
+    -->
     <Button
         android:id="@+id/resiginbutton"
         android:layout_width="wrap_content"
